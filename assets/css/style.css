@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.sidebar {
+    width: 260px;
+}
+
+.menu-link {
+    display: block;
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    color: #d1d5db;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.menu-link:hover {
+    background: #1f2937;
+    color: #fff;
+}
+
+.menu-link.active {
+    background: #374151;
+    color: #fff;
+    font-weight: 600;
+}
+
+.card-custom {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 18px 20px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+    margin-bottom: 16px;
+}
+
+.badge-soft {
+    padding: 3px 8px;
+    border-radius: 999px;
+    font-size: 0.7rem;
+}
